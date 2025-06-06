@@ -5,17 +5,27 @@ This project explores and analyzes job postings data to identify the most optima
 
 Hi everyone! Quite recently, I came across a video featuring a few SQL exercises and saw it as a great opportunity to showcase my SQL experience by completing them. The questions were created by **Luke Barousse**, who also provided the database used in this project.
 
+# What You’ll Learn  
 
-The database consists of  **four** tables:
 
-job_postings_fact
+- How to write advanced SQL queries using JOINs, Common Table Expressions (CTEs), and aggregate functions.  
 
-company_dim
 
-skills_dim
+- How to analyze real-world job postings data to identify top-paying roles and in-demand skills for Data Analysts.  
 
-skill_job_dim
 
+- How to work with multiple related tables to extract meaningful insights from complex datasets.  
+
+
+- Practical experience with industry-relevant job market analytics using SQL. <br><br>
+# The database consists of  **four** tables:  
+job_postings_fact  
+
+company_dim  
+
+skills_dim  
+
+skill_job_dim <br><br>
 **Database visualization:**
 
 ![datebase_1](/project_sql/assets/database_1.png)
@@ -191,7 +201,15 @@ LIMIT 25
 
 
 ## How to Use  
-1. Download or clone this repository.  
+1. Download or clone this repository. 
 2. Load the provided SQL schema using the `create_tables` file.  
 3. Import the dataset into your SQL environment.  
 4. Run the queries from the respective sections in your SQL client.
+
+## Author  
+Created by **Arsen Pankiv**  
+- [LinkedIn](https://www.linkedin.com/in/arsen-pankiv-6082b4349/)  
+- [GitHub](https://github.com/Arsen-Pankiv)
+
+**Questions and database provided by:**  
+- [Luke Barousse](https://www.linkedin.com/in/luke-b/)
